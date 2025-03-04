@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Fien.unity
     guid: ae666798a74d3a5488e0c0ec42a1265d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 49eb575efe7f42741b60381cc0e8b633
+  - enabled: 1
+    path: Assets/Scenes/Seren.unity
+    guid: 0fd1c62fba0b0ef4893cab8dd3c8eae7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a4f0336c9a5704ea29217ff87def5fd4, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2675667c7d46147a8baf935bca0141ca, type: 2}
