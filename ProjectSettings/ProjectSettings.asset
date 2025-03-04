@@ -143,6 +143,9 @@ PlayerSettings:
   bundleVersion: 1.0
   preloadedAssets:
   - {fileID: 0}
+  - {fileID: 6611913320500616618, guid: b1964baee07444f7cb099f13ae76d64a, type: 2}
+  - {fileID: 11400000, guid: 2675667c7d46147a8baf935bca0141ca, type: 2}
+  - {fileID: -4427346669164729352, guid: a0b57f906dbae4fb5a7137c495ff1b7d, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -163,6 +166,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.Unity.JuniorProgrammerPathway
     Standalone: com.Unity.JuniorProgrammerPathway
   buildNumber:
     Standalone: 0
