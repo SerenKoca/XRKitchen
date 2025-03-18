@@ -1394,9 +1394,9 @@ MonoBehaviour:
   m_UIHoverExited:
     m_PersistentCalls:
       m_Calls: []
-  m_EnableARRaycasting: 0
-  m_OccludeARHitsWith3DObjects: 0
-  m_OccludeARHitsWith2DObjects: 0
+  m_EnableARRaycasting: 1
+  m_OccludeARHitsWith3DObjects: 1
+  m_OccludeARHitsWith2DObjects: 1
   m_ScaleMode: 0
 --- !u!114 &434127021
 MonoBehaviour:

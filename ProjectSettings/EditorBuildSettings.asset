@@ -9,13 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Fien.unity
     guid: ae666798a74d3a5488e0c0ec42a1265d
   - enabled: 0
+    path: Assets/Samples/XR Hands/1.4.3/HandVisualizer/HandVisualizer.unity
+    guid: ab7acf0d9677fbe4db51bc36647d4fcb
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 49eb575efe7f42741b60381cc0e8b633
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Seren.unity
     guid: 0fd1c62fba0b0ef4893cab8dd3c8eae7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a4f0336c9a5704ea29217ff87def5fd4, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8db675c53eb434f2ea0ffe70d044d9c5, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 66b51500cc0d94d0f9024bd11d7e9ff0, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2675667c7d46147a8baf935bca0141ca, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b1964baee07444f7cb099f13ae76d64a, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a0b57f906dbae4fb5a7137c495ff1b7d, type: 2}
