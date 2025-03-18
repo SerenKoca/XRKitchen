@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Seren.unity
     guid: 0fd1c62fba0b0ef4893cab8dd3c8eae7
+  - enabled: 0
+    path: Assets/Samples/XR Hands/1.4.3/Gestures/HandGestures.unity
+    guid: cd792f2302b8b6f4c9f264e2a4503e15
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a4f0336c9a5704ea29217ff87def5fd4, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8db675c53eb434f2ea0ffe70d044d9c5, type: 2}
