@@ -50,7 +50,7 @@ public class RecipeTimerManager : MonoBehaviour
         }
     }
 
-    void UpdateRecipe()
+    public void UpdateRecipe()
     {
         recipeText.text = recipes[currentIndex];
         titleText.text = "Stap " + (currentIndex + 1);
