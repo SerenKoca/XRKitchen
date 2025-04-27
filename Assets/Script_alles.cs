@@ -5,12 +5,12 @@ using UnityEngine.UI;
 public class RecipeTimerManager : MonoBehaviour
 {
     [Header("Recepten")]
-    public TextMeshProUGUI recipeText;  // Beschrijvingstekst
-    public TextMeshProUGUI titleText;   // Titeltekst (bijv. "Stap 1")
-    public Button previousButton;       // Vorige-knop
-    public Button nextButton;           // Volgende-knop
-    public string[] recipes;            // Array met recepten
-    public float[] stepTimes;           // Timerduur per stap in seconden
+    public TextMeshProUGUI recipeText;
+    public TextMeshProUGUI titleText;
+    public Button previousButton;
+    public Button nextButton;
+    public string[] recipes;
+    public float[] stepTimes;
 
     private int currentIndex = 0;
 
@@ -22,7 +22,7 @@ public class RecipeTimerManager : MonoBehaviour
 
     private float tijd;
     private bool timerActief = false;
-    private bool timerBeschikbaar = false; // Of de timer beschikbaar is
+    private bool timerBeschikbaar = false;
 
     void Start()
     {
@@ -52,20 +52,24 @@ public class RecipeTimerManager : MonoBehaviour
 
     public void UpdateRecipe()
     {
+        // Timer altijd stoppen bij het wisselen van stap
+        timerActief = false;
+        startKnop.interactable = true;
+
         recipeText.text = recipes[currentIndex];
         titleText.text = "Stap " + (currentIndex + 1);
 
         // Vorige-knop alleen tonen vanaf stap 2
         previousButton.gameObject.SetActive(currentIndex > 0);
 
+        // Volgende-knop verbergen als laatste stap bereikt is
+        nextButton.gameObject.SetActive(currentIndex < recipes.Length - 1);
+
         // Check of de timer beschikbaar is
         if (stepTimes[currentIndex] > 0)
         {
-            if (!timerActief) // Alleen resetten als timer NIET actief is
-            {
-                tijd = stepTimes[currentIndex];
-                UpdateTimerText();
-            }
+            tijd = stepTimes[currentIndex];
+            UpdateTimerText();
             timerBeschikbaar = true;
             startKnop.gameObject.SetActive(true);
         }
@@ -107,14 +111,14 @@ public class RecipeTimerManager : MonoBehaviour
         if (timerBeschikbaar)
         {
             timerActief = true;
-            startKnop.interactable = false; // Startknop uitschakelen
+            startKnop.interactable = false;
         }
     }
 
     public void PauseTimer()
     {
         timerActief = false;
-        startKnop.interactable = true; // Startknop weer inschakelen
+        startKnop.interactable = true;
     }
 
     public void ResetTimer()

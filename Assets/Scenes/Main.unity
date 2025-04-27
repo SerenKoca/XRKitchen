@@ -808,6 +808,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176308546}
   m_CullTransparentMesh: 1
+--- !u!1 &212348834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212348835}
+  - component: {fileID: 212348837}
+  - component: {fileID: 212348836}
+  m_Layer: 5
+  m_Name: Na_img
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &212348835
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212348834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4835, y: 0.4835, z: 0.4835}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1867078642}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 73.7, y: 37}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &212348836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212348834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 61617337cbf181c49830eb6fc2289ffe, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &212348837
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212348834}
+  m_CullTransparentMesh: 1
 --- !u!1 &276192886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,6 +1371,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 26.008, y: -30, z: 0}
+--- !u!1 &317067930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 317067931}
+  - component: {fileID: 317067933}
+  - component: {fileID: 317067932}
+  m_Layer: 5
+  m_Name: Voor_img
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &317067931
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317067930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4835, y: 0.4835, z: 0.4835}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1867078642}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -76.3, y: 37}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &317067932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317067930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f46b765ad4099ac4bb5d6bc8b93cc6ae, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &317067933
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317067930}
+  m_CullTransparentMesh: 1
 --- !u!1 &320666847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,6 +2083,81 @@ MonoBehaviour:
   m_UIHoverExited:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &446417940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446417941}
+  - component: {fileID: 446417943}
+  - component: {fileID: 446417942}
+  m_Layer: 5
+  m_Name: Hoofd_img
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &446417941
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446417940}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4835, y: 0.4835, z: 0.4835}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1867078642}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.6, y: 37}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &446417942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446417940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b9f1de15540f88c4e938c9e546470948, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &446417943
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446417940}
+  m_CullTransparentMesh: 1
 --- !u!1 &472371121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,25 +2458,24 @@ MonoBehaviour:
   previousButton: {fileID: 1148577420}
   nextButton: {fileID: 554046522}
   recipes:
-  - Snipper het uitje en fruit even aan in een scheutje olijfolie
-  - 'Voeg de blokjes kip toe en bak ongeveer 5 minuten. '
-  - 'Kook ondertussen de pasta gaar. '
-  - 'Voeg de (zelfgemaakte) pesto en room toe aan de kip en roer goed door. '
-  - Proef nog even of er nog peper of zout bij moet.
-  - 'Laat de pestosaus een paar minuutjes zachtjes pruttelen. '
-  - 'Voeg dan de gekookte pasta toe en schep er doorheen. '
-  - 'Halveer de tomaatjes en roer ook door de pasta pesto en verwarm nog een minuutje
-    mee. '
-  - Serveer de pasta pesto in de pan of op een bord met een handje rucola
+  - Zet een soeppan op het vuur en fruit de ui en knoflook ongeveer 3 min in de olijfolie.
+  - 'Voeg de tomaten parten toe en bak deze 5 min mee. '
+  - Voeg het water en de bouillontablet toe en roer de tomatenpuree er door, kook
+    een paar minuten.
+  - 'Pureer nu alles met een staafmixer '
+  - Laat de tomatensoep een paar minuutjes doorkoken.
+  - 'Proef of de soep nog een beetje peper of zout nodig heeft. '
+  - 'Serveer de tomatensoep in 4 borden of kommen. Schenk in elk bord of kom een
+    klein scheutje kookroom. '
+  - Garneer de soep eventueel met verse basilicum.
   stepTimes:
-  - 0
-  - 300
-  - 0
-  - 0
-  - 0
   - 180
+  - 300
+  - 240
   - 0
-  - 60
+  - 240
+  - 0
+  - 0
   - 0
   timerText: {fileID: 1630470607}
   startKnop: {fileID: 1722815247}
@@ -3299,25 +3523,35 @@ MonoBehaviour:
   previousButton: {fileID: 2002249529}
   nextButton: {fileID: 1239448179}
   recipes:
-  - Snipper het uitje en fruit even aan in een scheutje olijfolie
-  - 'Voeg de blokjes kip toe en bak ongeveer 5 minuten. '
-  - 'Kook ondertussen de pasta gaar. '
-  - 'Voeg de (zelfgemaakte) pesto en room toe aan de kip en roer goed door. '
-  - Proef nog even of er nog peper of zout bij moet.
-  - 'Laat de pestosaus een paar minuutjes zachtjes pruttelen. '
-  - 'Voeg dan de gekookte pasta toe en schep er doorheen. '
-  - 'Halveer de tomaatjes en roer ook door de pasta pesto en verwarm nog een minuutje
-    mee. '
-  - Serveer de pasta pesto in de pan of op een bord met een handje rucola
+  - 'Verwarm de oven op 170 graden. '
+  - 'Smelt de boter in een pannetje of magnetron. '
+  - 'Zeef de bloem, bakpoeder en zout in een grote kom. '
+  - 'Meng de basterdsuiker en vanillesuiker in een kom en giet de gesmolten boter
+    er bij. '
+  - Meng dit tot de suiker begint te smelten.
+  - 'Klop dan het ei er door. Voeg het suikermengsel bij de gezeefde bloem. '
+  - 'Schep met een houten lepel door elkaar. '
+  - Laat het deeg een paar min afkoelen.
+  - Schep dan ook de chocolade er door.
+  - 'Draai balletjes van het deeg en leg deze op de bakplaat met bakpapier. '
+  - Plat drukken is niet nodig, ze lopen nog uit in de oven. Houd daarom genoeg ruimte
+    tussen de deegballetjes.
+  - Bak ze 15 min in de oven tot de randjes beginnen te kleuren maar de binnenzijde
+    nog zacht is.
+  - Laat de chocolate chip cookies volledig afkoelen op een rooster.
   stepTimes:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   - 0
   - 300
   - 0
   - 0
   - 0
-  - 180
-  - 0
-  - 60
+  - 900
   - 0
   timerText: {fileID: 2120375282}
   startKnop: {fileID: 1942064654}
@@ -3791,6 +4025,13 @@ MonoBehaviour:
   voorgerechtCanvas: {fileID: 1012162880}
   hoofdgerechtCanvas: {fileID: 702855736}
   dessertCanvas: {fileID: 368848408}
+  keuzeMenuOnderdelen:
+  - {fileID: 317067930}
+  - {fileID: 446417940}
+  - {fileID: 212348834}
+  - {fileID: 2028802079}
+  - {fileID: 1141367229}
+  - {fileID: 276192886}
 --- !u!4 &822281569
 Transform:
   m_ObjectHideFlags: 0
@@ -3863,23 +4104,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- 300 gr pasta
-
-    - 400 gr kipfilet
-
-    - 1 ui
-
-    - 250 ml kookroom
-
-    -
-    peper en zout
-
-    - scheutje olijfolie
-
-    - handje rucola
-
-    - 4 eetlepels
-    pesto'
+  m_text: "- 250\_gr\_bloem\r\n- 250\_gr\_witte of lichte basterdsuiker\r\n- 1\_ei\r\n-
+    1\_theelepel\_bakpoeder\r\n- 180\_gr\_roomboter\r\n- snufje zout\r\n- 1\_zakje
+    vanillesuiker\r\n- 200\_gr\_melk en/of pure chocolade"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -6733,23 +6960,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- 300 gr pasta
-
-    - 400 gr kipfilet
-
-    - 1 ui
-
-    - 250 ml kookroom
-
-    -
-    peper en zout
-
-    - scheutje olijfolie
-
-    - handje rucola
-
-    - 4 eetlepels
-    pesto'
+  m_text: "- 1\_ui ( gesnipperd )\r\n- 2\_tenen knoflook ( fijngesneden )\r\n- 750\_gr\_romatomaten
+    ( in parten )\r\n- 750\_ml\_water\r\n- 1\_groentebouillontablet\r\n- 1\_klein
+    blikje tomatenpuree\r\n- Scheutje kookroom\r\n- 2\_eetlepels\_olijfolie\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -9226,6 +9439,9 @@ RectTransform:
   - {fileID: 276192887}
   - {fileID: 1141367230}
   - {fileID: 2028802083}
+  - {fileID: 317067931}
+  - {fileID: 446417941}
+  - {fileID: 212348835}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

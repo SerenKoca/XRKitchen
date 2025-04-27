@@ -7,16 +7,19 @@ public class ReceptKeuzeManager : MonoBehaviour
     public Button voorgerechtKnop;
     public Button hoofdgerechtKnop;
     public Button dessertKnop;
-    public Button terugKnop; // Terug-knop
+    public Button terugKnop;
 
     [Header("Recept Canvassen")]
     public Canvas voorgerechtCanvas;
     public Canvas hoofdgerechtCanvas;
     public Canvas dessertCanvas;
 
+    [Header("Keuze Menu Onderdelen")]
+    public GameObject[] keuzeMenuOnderdelen; // Nieuw: hier zet je knoppen én images in die bij het menu horen
+
     void Start()
     {
-        // Alle canvassen uitschakelen bij het starten
+        // Alle recept canvassen uitschakelen bij het starten
         voorgerechtCanvas.gameObject.SetActive(false);
         hoofdgerechtCanvas.gameObject.SetActive(false);
         dessertCanvas.gameObject.SetActive(false);
@@ -33,7 +36,7 @@ public class ReceptKeuzeManager : MonoBehaviour
 
     void SelecteerReceptCanvas(Canvas receptCanvas)
     {
-        // Deactiveer alle canvassen
+        // Deactiveer alle recept canvassen
         voorgerechtCanvas.gameObject.SetActive(false);
         hoofdgerechtCanvas.gameObject.SetActive(false);
         dessertCanvas.gameObject.SetActive(false);
@@ -41,10 +44,11 @@ public class ReceptKeuzeManager : MonoBehaviour
         // Activeer de geselecteerde canvas
         receptCanvas.gameObject.SetActive(true);
 
-        // Verberg de keuzeknoppen
-        voorgerechtKnop.gameObject.SetActive(false);
-        hoofdgerechtKnop.gameObject.SetActive(false);
-        dessertKnop.gameObject.SetActive(false);
+        // Verberg alle onderdelen van het keuzemenu (knoppen en images)
+        foreach (GameObject onderdeel in keuzeMenuOnderdelen)
+        {
+            onderdeel.SetActive(false);
+        }
 
         // Toon de terug-knop
         terugKnop.gameObject.SetActive(true);
@@ -52,15 +56,16 @@ public class ReceptKeuzeManager : MonoBehaviour
 
     void TerugNaarKeuzeMenu()
     {
-        // Deactiveer alle canvassen
+        // Deactiveer alle recept canvassen
         voorgerechtCanvas.gameObject.SetActive(false);
         hoofdgerechtCanvas.gameObject.SetActive(false);
         dessertCanvas.gameObject.SetActive(false);
 
-        // Toon de keuzeknoppen
-        voorgerechtKnop.gameObject.SetActive(true);
-        hoofdgerechtKnop.gameObject.SetActive(true);
-        dessertKnop.gameObject.SetActive(true);
+        // Toon alle onderdelen van het keuzemenu (knoppen en images)
+        foreach (GameObject onderdeel in keuzeMenuOnderdelen)
+        {
+            onderdeel.SetActive(true);
+        }
 
         // Verberg de terug-knop
         terugKnop.gameObject.SetActive(false);
